@@ -1,2 +1,2 @@
 # Mu0-Hardware
-hardware schematic diagram implemented using quartus II
+Mu0 hardware schematic diagram implemented using quartus II 13.0
