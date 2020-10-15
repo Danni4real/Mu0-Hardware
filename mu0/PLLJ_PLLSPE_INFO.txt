@@ -1,0 +1,5 @@
+PLL_Name	altclklock:inst|altpll:pll|altpll_7961:auto_generated|pll1
+PLLJITTER	29
+PLLSPEmax	84
+PLLSPEmin	-53
+

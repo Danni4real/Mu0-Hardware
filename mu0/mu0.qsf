@@ -1,0 +1,86 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 16:22:18  September 30, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		mu0_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY mu0
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:22:18  SEPTEMBER 30, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BDF_FILE reg_1_bit.bdf
+set_global_assignment -name BDF_FILE mu0.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name SIMULATION_MODE TIMING
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name BDF_FILE reg_4_bits.bdf
+set_global_assignment -name BDF_FILE reg_16_bits.bdf
+set_global_assignment -name BDF_FILE adder_1_bit.bdf
+set_global_assignment -name BDF_FILE adder_4_bits.bdf
+set_global_assignment -name BDF_FILE adder_15_bits.bdf
+set_global_assignment -name BDF_FILE signed_adder_16_bits.bdf
+set_global_assignment -name BDF_FILE not_16_bits.bdf
+set_global_assignment -name BDF_FILE alu.bdf
+set_global_assignment -name BDF_FILE alu_y_selector_1_bit.bdf
+set_global_assignment -name BDF_FILE alu_y_selector.bdf
+set_global_assignment -name BDF_FILE alu_x_selector.bdf
+set_global_assignment -name BDF_FILE reg_ir.bdf
+set_global_assignment -name BDF_FILE mux_1_bit.bdf
+set_global_assignment -name BDF_FILE mux_16_bits.bdf
+set_global_assignment -name BDF_FILE mux_address.bdf
+set_global_assignment -name BDF_FILE controler_ir_enable.bdf
+set_global_assignment -name BDF_FILE controler_pc_enable.bdf
+set_global_assignment -name BDF_FILE controler_acc_enable.bdf
+set_global_assignment -name BDF_FILE controler_M_enable.bdf
+set_global_assignment -name BDF_FILE controler_x_select.bdf
+set_global_assignment -name BDF_FILE controler_y_select.bdf
+set_global_assignment -name BDF_FILE controler_a_select.bdf
+set_global_assignment -name BDF_FILE controler_read_enable.bdf
+set_global_assignment -name BDF_FILE controler_write_enable.bdf
+set_global_assignment -name BDF_FILE controler_state_looper.bdf
+set_global_assignment -name BDF_FILE controler.bdf
+set_global_assignment -name BDF_FILE controler_acc_watcher.bdf
+set_global_assignment -name QIP_FILE ram.qip
+set_global_assignment -name BDF_FILE cpu.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Quartus/workspace/mu0/Waveform.vwf"
